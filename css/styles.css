@@ -18,6 +18,10 @@ img {
     display: block;
 }
 
+header {
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
 .site-head {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -63,6 +67,7 @@ ul {
     color: #434455;
     font-size: 16px;
     letter-spacing: 0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo {
@@ -102,9 +107,7 @@ ul {
     padding-top: 24px;
     padding-bottom: 24px;
     position: relative;
-    transition-property: background-color;
-    transition-duration: 250ms;    
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts:hover::after {
@@ -113,7 +116,7 @@ ul {
     width: 100%;
     height: 4px;
     left: 0;
-    bottom: 0;
+    bottom: -1px;
     border-radius: 2px;
     background-color: #404BBF; 
 }
@@ -143,7 +146,11 @@ ul {
     padding-bottom: 188px;
     background-image: linear-gradient(
         to bottom, rgba(46,47,66,0.7), rgba(46,47,66,0.7)), url(../images/people-office.jpg);
-}
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
 
 .effect {
     font-family: 'Roboto', sans-serif;
@@ -175,6 +182,7 @@ ul {
     border: none;
     margin-left: auto;
     margin-right: auto;
+    transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .service-button:hover {
@@ -201,6 +209,16 @@ ul {
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
+}
+
+.advantages-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
 
 .advantages-list {
