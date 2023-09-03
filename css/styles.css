@@ -70,21 +70,6 @@ ul {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.logo {
-    font-family: 'Raleway', sans-serif;
-    line-height: 1.17;
-    font-weight: 700;
-    color: #4D5AE5;
-    font-size: 18px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    margin-right: 76px; 
-    margin-top: 24px;
-    margin-bottom: 24px;
-    margin-left: 156 px;
-
-}
-
 .menu {
     display: flex;
     gap: 40px; 
@@ -129,6 +114,21 @@ ul {
     position: absolute;
     left: 0;
     bottom: -1px;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.17;
+    font-weight: 700;
+    color: #4D5AE5;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-right: 76px; 
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 156 px;
+
 }
 
 .address-menu {
