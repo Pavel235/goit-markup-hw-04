@@ -91,7 +91,6 @@ ul {
     letter-spacing: 0.02em;
     padding-top: 24px;
     padding-bottom: 24px;
-    position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -100,8 +99,10 @@ ul {
     color: #404BBF;
 }
 
-.contacts {
+.studio-link {
     color: #404BBF;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts::after {
@@ -124,9 +125,7 @@ ul {
     font-size: 18px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px; 
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin-right: 76px;
     margin-left: 156 px;
 
 }
